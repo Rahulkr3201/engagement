@@ -1,0 +1,5 @@
+import { ArrowDown } from 'lucide-react';
+import { invitationData as d } from '../data/invitationData';
+import Ornament from './Ornament';
+import MobileIntro from './MobileIntro';
+export default function Hero(){return <section className="hero" id="home" aria-labelledby="hero-title"><img className="hero-image" src={d.images.hero} alt="Illustrative Indian couple on a flower-adorned swing in a candlelit palace garden" fetchPriority="high"/><div className="hero-shade"/><MobileIntro/><div className="hero-content"><p className="eyebrow hero-intro">A BEAUTIFUL BEGINNING</p><Ornament/><p className="eyebrow">WE’RE GETTING ENGAGED</p><h1 id="hero-title" className="names">{d.bride.name}<span>&</span>{d.groom.name}</h1><div className="parents"><p><b>{d.bride.name}</b><span>Daughter of</span>{d.bride.parents}</p><i>&</i><p><b>{d.groom.name}</b><span>Son of</span>{d.groom.parents}</p></div><a className="scroll-link" href="#invitation">Scroll to Celebrate <ArrowDown size={15}/></a></div><div className="hero-date">A DAY TO REMEMBER</div></section>}

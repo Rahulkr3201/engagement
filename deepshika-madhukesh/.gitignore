@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.DS_Store
+
+# Unused source copies of the song (the site plays song.m4a)
+public/music/*.mpeg
