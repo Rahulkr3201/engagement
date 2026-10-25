@@ -1,4 +1,4 @@
-# Deepshika & Madhukesh — Engagement Invitation
+# Deepshikha & Madhukesh — Engagement Invitation
 
 A responsive, single-page React invitation built with Vite, CSS, and Lucide icons.
 
